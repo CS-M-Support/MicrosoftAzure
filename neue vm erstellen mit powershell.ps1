@@ -1,4 +1,4 @@
-# Verbindung mit Azure Konto herstellen
+# Verbindung mit AzAccount herstellen
 Connect-AzAccount
 
 # Neue Ressource mit dem Namen VM01 in der Region Switzerland North in der Ressourcengruppe RG01 erstellen
@@ -12,5 +12,5 @@ New-AzVm `
     -PublicIpAddressName '[öffentliche ip name]' `
     -OpenPorts 80,3389
 
-# Verbindnung mit Azure Konto trennen
+# Verbindnung mit AzAccount trennen
 Disconnect-AzAccount

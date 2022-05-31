@@ -1,4 +1,4 @@
-# Verbindung mit Azure Konto herstellen
+# Verbindung mit AzAccount herstellen
 Connect-AzAccount
 
 # Neues virtuelles Netzwerk mit dem Address Prefix 10.0.0.0 in der Region Switzerland North und der Ressourcengruppe RG01 erstellen
@@ -14,5 +14,5 @@ Add-AzVirtualNetworkSubnetConfig `
     -VirtualNetwork 'VNet01' `
     -AddressPrefix '10.0.0.0/24'
 
-# Verbindnung mit Azure Konto trennen
+# Verbindnung mit AzAccount trennen
 Disconnect-AzAccount
